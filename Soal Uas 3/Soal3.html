@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Nim dan Nama</title>
+    <script src="soal3.js"></script>
+    <style>
+        body {
+            background-color: skyblue;
+            font-size: 20px;
+        }
+        center {
+            margin-top: 100px;
+        }
+        .card{
+             background-color: #fff;
+            box-shadow: 0 20px 40px rgba(0,0,0, .2) ;
+            width: 50%;
+            padding: 60px;
+            border-radius: 30px;
+            }
+        .btn {
+            width: 100px;
+            height: 30px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <div class="card">
+    <form action="" name="fform">
+    <h1>Memasukkan Nama dan NIM</h1><hr><br><br>
+    <h3>Identitas Ku</h3>
+    <Table>
+        <tr>
+            <td>NAMA</td>
+            <td>:</td>
+            <td><input type="text" size="25" name="Nama"></td>
+        </tr>
+        <tr>
+            <td>NIM</td>  
+            <td>:</td> 
+            <td><input type="text" size="25" name="Nim"></td>
+        </tr>
+        <tr>
+            <td>KELAS</td>
+            <td>:</td>
+            <td><input type="text" size="25" name="Kelas"></td>
+        </tr>
+    </Table><br><br>
+    <input class="btn" type="button" value="input" onclick="input()">
+    <input class ="btn" type="reset" value="Ulangi">
+
+    <h2>Hasilnya</h2>
+    <Table>
+        <tr>
+            <td>Nama Anda adalah</td> 
+            <td>:</td>
+            <td><input type="text" size="25" name="namaLo"></td>
+        </tr>
+        <tr>
+            <td>Nomor Induk Mahasiswa</td>
+            <td>:</td>
+            <td><input type="text" size="25" name="nimLo"></td>
+        </tr>
+        <tr>
+            <td>Anda Di Kelas</td> 
+            <td>:</td> 
+            <td><input type="text" size="25" name="kelasLo"></td>
+        </tr>
+    </Table>
+</form>
+</div>
+</center>
+</body>
+</html>
