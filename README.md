@@ -1,4 +1,6 @@
-# UAS_PrakDesweb_21104410052_S3
+# Balya Ahmad Waffa 
+# 21104410052
+# Teknik Informatika B
 
 ✔UAS Untuk Memenuhi Matakuliah Desain Web
 
